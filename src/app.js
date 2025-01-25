@@ -1,7 +1,8 @@
+// src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import DiseaseDetection from './diseasedet'; // Make sure the path is correct
-import HomePage from './new'; // You can use your existing HomePage component
+import DiseaseDetection from './diseasedet';  // Path to your DiseaseDetection component
+import HomePage from './homepage';  // Updated path to your new HomePage component
 
 function App() {
   return (
@@ -15,3 +16,4 @@ function App() {
 }
 
 export default App;
+
